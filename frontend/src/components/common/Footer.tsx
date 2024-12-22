@@ -3,8 +3,8 @@ import { useState } from "react";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 
-import Apple from "../../images/footer/Apple";
-import Play from "../../images/footer/Play";
+import Apple from "../../svgs/Apple";
+import Play from "../../svgs/Play";
 
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
