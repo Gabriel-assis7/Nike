@@ -8,7 +8,6 @@ import Footer from "../../components/common/Footer"
 
 
 const Home = () => {
-
   const [isHighLightOpen, setHighLightOpen] = useState<boolean>(false);
   const [isSectionWomanOpen, setSectioWomanOpen] = useState<boolean>(false);
   const [isSectionManOpen, setSectionManOpen] = useState<boolean>(false);
@@ -147,7 +146,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center py-20 px-10">
+      <div className="md:flex w-full hidden justify-center py-20 px-10">
         <div className="flex w-full lg:hidden">
           <div className="w-full h-gifting-banner-mobile bg-cover gifting-banner-mobile:bg-cover bg-no-repeat bg-center cursor-pointer bg-gifting-banner-mobile"></div>
         </div>
@@ -155,7 +154,7 @@ const Home = () => {
           <div className="w-full gifting-banner-desk:bg-contain cursor-pointer h-64 bg-gifting-banner-desk bg-cover bg-no-repeat bg-center"></div>
         </div>
       </div>
-      <div className="flex w-full justify-center px-10">
+      <div className="flex py-12 md:py-0 w-full justify-center px-10">
         <div className="flex w-full max-w-screen-xl gap-2">
           <div className="flex w-full flex-col gap-2">
             <div className="bg-nikedunk bg-cover bg-center w-full h-gifting-products-home cursor-pointer"></div>
